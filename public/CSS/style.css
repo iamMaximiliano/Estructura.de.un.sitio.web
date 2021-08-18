@@ -46,14 +46,16 @@ main {
     width: 90%;
 }
 
+main section article div {
+    border: 1px solid #ebebeb;
+    padding: 15px 15px 15px 15px;
+    background-color: white;
+}
+
 main article {
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-main section article div {
-    border-top: 1px solid #ebebeb;
-    border: 15px 15px 15px 15px;
+    background-color: #ebebeb;
 }
 
 /* Precios, Descuentos, Descripciones */
