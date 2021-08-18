@@ -11,6 +11,7 @@ li {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 header p {
@@ -38,6 +39,21 @@ body header div {
 /* Titulares (Basado en tu última visita/Ofertas) */
 main section h2 {
     font-size: 24px;
+}
+
+main {
+    text-align: center;
+    width: 90%;
+}
+
+main article {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main section article div {
+    border-top: 1px solid #ebebeb;
+    border: 15px 15px 15px 15px;
 }
 
 /* Precios, Descuentos, Descripciones */
