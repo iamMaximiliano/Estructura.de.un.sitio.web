@@ -1,40 +1,62 @@
-* {
-    font-family: 'Roboto', sans-serif;   
+/* Tipografia, Cuerpo de texto, fondo */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
     background-color: #EAC926;
 }
 
-p {
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header p {
     font-size: 12px;
 }
 
-h2 {
+header img {
+    width: 200px;
+    margin: 20px 20px;
+}
+
+/* Menu hamburguesa */
+body header div {
+    display: block;
+    width: 30px;
+    background-color: #1259c3;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 auto 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Titulares (Basado en tu última visita/Ofertas) */
+main section h2 {
     font-size: 24px;
 }
 
+/* Precios, Descuentos, Descripciones */
 .precio {
     font-size: 18px;
 }
-
 .descuento {
     font-size: 16px;
 }
-
 .descripcion {
-    font-size: 16px;
+    font-size:16px;
 }
 
-.burger-menu {
+
+footer {
     text-align: center;
-    color: white;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
-i {
+footer section i {
     font-size: 2em;
     margin-bottom: 10px;
-}
-
-article {
-    text-align: center;
 }
